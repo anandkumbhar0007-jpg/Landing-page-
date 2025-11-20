@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand's Affiliate Landing Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #007bff; color: white; padding: 50px 20px; text-align: center; }
+        .hero { max-width: 800px; margin: 0 auto; }
+        .cta-button { background-color: #28a745; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-size: 18px; display: inline-block; margin-top: 20px; }
+        .about { padding: 50px 20px; text-align: center; background-color: white; }
+        .testimonials { padding: 50px 20px; background-color: #e9ecef; }
+        .testimonial { max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: white; }
+        footer { text-align: center; padding: 20px; background-color: #007bff; color: white; }
+        img { max-width: 100%; height: auto; border-radius: 50%; width: 150px; }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header>
+        <div class="hero">
+            <h1>Welcome to Anand's Exclusive Affiliate Offer!</h1>
+            <p>Discover the game-changing product that's transforming lives. As an affiliate marketer, I'm here to help you get started today—limited spots available!</p>
+            <a href="whatsapp://send?phone=916361585735" class="cta-button">Join Now!</a>
+        </div>
+    </header>
+
+    <!-- About Section with Your Image -->
+    <section class="about">
+        <h2>About Anand</h2>
+        <img src="https://etimg.etb2bimg.com/photo/96180763.cms" alt="Anand - Affiliate Marketer">
+        <p>Hi, I'm Anand, a passionate affiliate marketer with over 5 years of experience helping people like you succeed. I've partnered with top brands to bring you exclusive deals. Trust me to guide you to the best opportunities!</p>
+        <a href="whatsapp://send?phone=916361585735" class="cta-button">Join Now with Anand</a>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial">
+            <p>"Anand's recommendations changed my life! I made my first sale within days. Highly recommend!"</p>
+            <cite>- John Doe, Satisfied Customer</cite>
+        </div>
+        <div class="testimonial">
+            <p>"Thanks to Anand, I boosted my income by 300%. The affiliate links are gold!"</p>
+            <cite>- Jane Smith, Affiliate Success Story</cite>
+        </div>
+        <div class="testimonial">
+            <p>"Easy to follow and super effective. Anand knows his stuff!"</p>
+            <cite>- Mike Johnson, Happy User</cite>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="about">
+        <h2>Why Choose This Offer?</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li>✅ Proven results with real testimonials</li>
+            <li>✅ Exclusive discounts through my affiliate link</li>
+            <li>✅ Step-by-step guidance from Anand</li>
+            <li>✅ Risk-free trial – 100% satisfaction guarantee</li>
+        </ul>
+        <a href="whatsapp://send?phone=916361585735" class="cta-button">Don't Miss Out – Click Here!</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Anand Affiliate Marketing. All rights reserved. Contact: contact@anandaffiliates.com</p>
+    </footer>
+
+    <script>
+        // Simple script to track clicks (optional, integrate with Google Analytics)
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', () => {
+                console.log('CTA clicked'); // Replace with tracking code
+            });
+        });
+    </script>
+</body>
+</html>
